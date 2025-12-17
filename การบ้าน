@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>แบบสอบถาม</title>
+</head>
+<body>
+
+    
+  <h2 style="text-align:center;">แบบสอบถาม</h2>
+  <hr>
+
+  <form action="#" method="post">
+
+    <table align="center" cellpadding="5" cellspacing="0" style="background-color:#f3e7d7; border:1px solid #ccc;">
+      <tr>
+        <td><b>ชื่อ-นามสกุล</b></td>
+        <td><input type="text" name="fullname"></td>
+      </tr>
+
+      <tr>
+        <td><b>รหัสนักศึกษา</b></td>
+        <td><input type="text" name="student_id"></td>
+      </tr>
+
+      <tr>
+        <td><b>เพศ</b></td>
+        <td>
+          <input type="radio" name="gender" value="male" checked> ชาย
+          <input type="radio" name="gender" value="female"> หญิง
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>สังกัดคณะ</b></td>
+        <td>
+          <select name="faculty">
+            <option>วิทยาศาสตร์</option>
+            <option>วิทยาการคอมพิวเตอร์</option>
+            <option>ครุศาสตร์</option>
+            <option>บริหารธุรกิจและการจัดการ</option>
+            <option>มนุษยศาสตร์</option>
+            <option>เทคโนโลยีอุตสาหกรรม</option>
+            <option>เกษตรศาสตร์</option>
+            <option>พยาบาลศาสตร์</option>
+            <option>สาธารณสุขศาสตร์</option>
+            <option>แพทย์แผนไทยและทางเลือก</option>
+            <option>นิติศาสตร์</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>แม่สีที่ชอบ</b></td>
+        <td>
+          <input type="checkbox"> สีแดง
+          <input type="checkbox"> สีเขียว
+          <input type="checkbox"> สีน้ำเงิน
+        </td>
+      </tr>
+      <br>
+      <br>  
+      <tr>
+        <td><b>ผลไม้ที่ชอบ</b></td>
+        <td>
+          <input type="checkbox"> มะม่วง
+          <input type="checkbox"> น้อยหน่า
+          <input type="checkbox"> ทุเรียน
+          <br>
+          <input type="checkbox"> ลำใย
+          <input type="checkbox"> ฝรั้ง
+          <input type="checkbox"> แตงโม
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>อาหารที่ชอบ</b></td>
+        <td>
+          <input type="checkbox"> ต้มยำกุ้ง
+          <input type="checkbox"> ไข่เจียวหมูสับ
+          <input type="checkbox"> แกงขำไก่
+          <br>
+          <input type="checkbox"> แกงเขียวหวานไก่
+          <input type="checkbox"> ผัดไทย
+          <input type="checkbox"> ราดหน้าหมี่กรอบ
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="บันทึก">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>
